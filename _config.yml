@@ -13,7 +13,7 @@ title                    : "Bhavjot Khurana"
 title_separator          : "-"
 name                     : &name "Bhavjot Khurana"
 description              : &description "Data Scientist | Statistics Tutor"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://bhavjotkhurana.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
