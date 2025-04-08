@@ -24,7 +24,7 @@ main:
     url: /year-archive/
     
   - title: "Resume"
-    url: /files/resume.pdf/
+    url: https://drive.google.com/uc?export=download&id=1VFTbmfHFU0-nOU-mCgiHsBhr2keNMGFC
     
   # - title: "CV"
   #   url: /cv-json/
