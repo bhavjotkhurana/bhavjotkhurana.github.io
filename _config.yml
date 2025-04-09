@@ -24,9 +24,10 @@ author:
   # Biographic information
   avatar           : "myphoto.png"
   name             : "Bhavjot Khurana"
-  pronouns         : # example: "she/her"  
+ #pronouns         : 
   bio              : "Data Scientist | Statistics Tutor"
   location         : "Chicago, IL"
+  employer         : "Reed College" 
   uri              : # URL
   email            : "bhavjotskhurana@gmail.com" 
 
