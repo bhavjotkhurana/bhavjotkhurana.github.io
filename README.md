@@ -10,4 +10,4 @@ This is the source code for my personal portfolio website, built with HTML, CSS,
 - Hosted via GitHub Pages
 - Managed with Cloudflare DNS
 
-Template credit: [@Ade-mit](https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2)
+Template credit: [@Ade-mir](https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2)
