@@ -1,13 +1,19 @@
 # bhavjotkhurana.com
 
-This is the source code for my personal portfolio website, built with HTML, CSS, and vanilla JavaScript. It highlights my projects, technical skills, writing, and tutoring experience across data science, education, AI, and more.
+Source code for my personal portfolio website.
 
-### Live Site
+## Live Site
 [https://bhavjotkhurana.com](https://bhavjotkhurana.com)
 
-### Stack
-- HTML5 / CSS3 / JavaScript
+## Stack
+- HTML5
+- CSS3
 - Hosted via GitHub Pages
 - Managed with Cloudflare DNS
 
-Template credit: [@Ade-mir](https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2)
+## Current Structure
+Single-page minimalist portfolio with:
+- About
+- Links
+- Experience
+- Projects
