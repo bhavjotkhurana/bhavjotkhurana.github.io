@@ -1,0 +1,215 @@
+%-------------------------
+% Resume in Latex
+% Author : Bhavjot Khurana
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+% glyphtounicode is a pdfTeX feature (ATS Unicode mapping); guard so XeTeX/tectonic can also compile
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+\fi
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable (pdfTeX only)
+\ifdefined\pdfgentounicode
+  \pdfgentounicode=1
+\fi
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-9pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-9pt}
+}
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-9pt}
+}
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-9pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-7pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%---------- HEADING ----------
+\begin{center}
+    \textbf{\Huge \scshape Bhavjot Khurana} \\
+    \vspace{3pt}
+    \small
+    Chicago, IL
+    $|$
+    \href{mailto:bhavjotskhurana@gmail.com}{bhavjotskhurana@gmail.com}
+    $|$
+    \href{https://linkedin.com/in/bhavjotkhurana}{LinkedIn}
+    $|$
+    \href{https://github.com/bhavjotkhurana}{Github}
+    $|$
+    \href{https://bhavjotkhurana.com}{Portfolio}
+\end{center}
+
+%----------- EDUCATION -----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeEducationHeading
+      {Reed College}{Portland, Oregon}
+      {Bachelor of Arts - \textbf{Mathematics and Statistics}}{May 2023}
+      {Activities: International Student Board Coordinator}{}
+  \resumeSubHeadingListEnd
+
+%--------- WORK EXPERIENCE -----------%
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Founder \& Product Developer}{Chicago, IL}
+      {VLTG -- IBEW Aptitude Test Prep Platform \textnormal{(vltg.net, launching 2026)}}{2025 -- Present}
+        \resumeItemListStart
+            \resumeItem{Building an end-to-end diagnostic platform for electrical-trades apprentices: an adaptive assessment engine, a student-facing analytics dashboard, and an LLM ``coach'' summary (Claude Haiku API) with personalized next steps.}
+            \resumeItem{Instrumenting a full-funnel acquisition test across three channels (TikTok, forums, Facebook), tracking landing-page-through-dashboard events to measure channel-level conversion at launch; owning the product lifecycle solo.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Data Analyst}{Remote}
+      {Yuno Learning \textnormal{(Summer Internship, then intermittent freelance)}}{Summer 2022 -- Aug 2025}
+        \resumeItemListStart
+            \resumeItem{Queried and reshaped tutoring cohort data in SQL to deliver weekly trend snapshots and actionable recommendations for curriculum leads.}
+            \resumeItem{Authored experiment readouts for A/B tests on content cadence and deadline expectations, applying t-tests and Cohen's d across pre-, mid-, and post-course score distributions.}
+            \resumeItem{Collaborated with the technical team on conversion-tracking dashboards, contributing data hygiene feedback and pinpointing where to capture signals from website visit through tutor match.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Private Tutor}{Chicago, IL}
+      {Freelance}{May 2024--Present}
+        \resumeItemListStart
+            \resumeItem{Coach 7 students weekly across K-7 Math, SAT Math, and AP Calculus/Physics; raised one student's SAT Math score from 580 to 730 in three months.}
+            \resumeItem{Built and run \underline{\href{https://scotchegg.co}{scotchegg.co}}, a free 1,440-question SAT Math practice platform organized by topic that doubles as an acquisition funnel for my tutoring clients.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Mathematics \& Statistics Tutor}{Remote}
+      {Pear Deck Tutor (GoGuardian)}{October 2023--March 2025}
+        \resumeItemListStart
+            \resumeItem{Delivered 600+ one-on-one sessions (K-12 through college) across Algebra, Calculus, Probability, and Statistics, and designed Introductory Statistics and Probability curricula for non-traditional learners.}
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%----------- SELECTED PROJECTS -----------
+\section{Selected Projects}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Predicting Student Proficiency in Oregon Public Schools}{Portland, OR}
+      {Senior Thesis}{August 2022--May 2023}
+        \resumeItemListStart
+            \resumeItem{Curated a 1,236-school ESSA dataset and built random forest models in R (caret, randomForest, SMOTE, 9-fold CV) to predict ELA/Math proficiency, achieving over 80\% accuracy for most cohorts.}
+            \resumeItem{Delivered confusion-matrix and variable-importance readouts, highlighting staffing metrics as top predictive drivers.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {A/B Testing Analysis -- Advertising Experiment}{}
+      {Independent Project \textnormal{(Kaggle dataset)}}{December 2025}
+        \resumeItemListStart
+            \resumeItem{Analyzed a large-scale advertising experiment to evaluate the impact of ad exposure on conversion, applying hypothesis testing and confidence intervals to separate real lift from noise.}
+            \resumeItem{Assessed conversion efficiency against cost trade-offs to translate the statistical results into a clear go/no-go recommendation.}
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%----------- SKILLS -----------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Analytics \& Experimentation:}{ A/B Testing, Hypothesis Testing, Funnel/Event Instrumentation, KPI Definition, Statistical Modeling} \\
+        \textbf{Languages \& Tools:}{ Python, R, SQL (MySQL/Postgres), Git, Supabase} \\
+        \textbf{Visualization:}{ Python (matplotlib, seaborn, plotly), R (ggplot2), Tableau} \\
+        \textbf{Other:}{ LLM API Integration (Anthropic Claude), Product Analytics}
+    }}
+  \resumeSubHeadingListEnd
+
+%------------------------------
+
+\end{document}
