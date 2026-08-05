@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 560" width="780" height="560">
+  <title>BK monogram - editable source</title>
+  <desc>Archivo 600, tracking -0.065em. Ink #171310, Cream #F7F1E5, Jade #16804F / #4FC08C. Letters are live text with a 908-byte B+K subset of Archivo embedded, so this file renders identically anywhere. Edit fill and font-size directly.</desc>
+  <defs></defs>
+  <rect width="780" height="560" fill="#FDF7ED"></rect>
+
+  <text class="lbl" x="40" y="40">LOGOMARK / LIGHT</text>
+  <g transform="translate(40 52)">
+    <text class="mk" x="-7.6" y="68.6" font-size="100" fill="#171310">B</text>
+    <text class="mk" x="56.49999999999999" y="68.6" font-size="100" fill="#16804F">K</text>
+  </g>
+
+  <text class="lbl" x="220" y="40">LOGOMARK / DARK</text>
+  <rect x="206" y="50" width="152" height="94" rx="6" fill="#171310"></rect>
+  <g transform="translate(220 62)">
+    <text class="mk" x="-7.6" y="68.6" font-size="100" fill="#F7F1E5">B</text>
+    <text class="mk" x="56.49999999999999" y="68.6" font-size="100" fill="#4FC08C">K</text>
+  </g>
+
+  <text class="lbl" x="410" y="40">SINGLE COLOUR</text>
+  <g transform="translate(410 52)">
+    <text class="mk" x="-7.6" y="68.6" font-size="100" fill="#171310">B</text>
+    <text class="mk" x="56.49999999999999" y="68.6" font-size="100" fill="#171310">K</text>
+  </g>
+
+  <text class="lbl" x="600" y="40">CLEAR SPACE = 1 CAP</text>
+  <g transform="translate(600 52)">
+    <rect x="-76.20" y="0" width="261.10" height="205.80" fill="none" stroke="#16804F" stroke-width="1" stroke-dasharray="4 4" transform="translate(0 -68.60)"></rect>
+    <text class="mk" x="-7.6" y="68.6" font-size="100" fill="#171310">B</text>
+    <text class="mk" x="56.49999999999999" y="68.6" font-size="100" fill="#16804F">K</text>
+  </g>
+
+  <text class="lbl" x="40" y="230">TILE / INK (PRIMARY)</text>
+  <g transform="translate(40 242)">
+    <rect width="120" height="120" rx="22" fill="#171310"></rect>
+    <text class="mk" x="16.88" y="81.27" font-size="62" fill="#F7F1E5">B</text>
+    <text class="mk" x="56.62" y="81.27" font-size="62" fill="#4FC08C">K</text>
+  </g>
+
+  <text class="lbl" x="190" y="230">TILE / JADE</text>
+  <g transform="translate(190 242)">
+    <rect width="120" height="120" rx="22" fill="#16804F"></rect>
+    <text class="mk" x="16.88" y="81.27" font-size="62" fill="#FDF7ED">B</text>
+    <text class="mk" x="56.62" y="81.27" font-size="62" fill="#FDF7ED">K</text>
+  </g>
+
+  <text class="lbl" x="340" y="230">TILE / CREAM (ON DARK)</text>
+  <g transform="translate(340 242)">
+    <rect width="120" height="120" rx="22" fill="#F7F1E5"></rect>
+    <text class="mk" x="16.88" y="81.27" font-size="62" fill="#171310">B</text>
+    <text class="mk" x="56.62" y="81.27" font-size="62" fill="#16804F">K</text>
+  </g>
+
+  <text class="lbl" x="490" y="230">16-24PX FALLBACK</text>
+  <g transform="translate(490 242)">
+    <rect width="120" height="120" rx="20" fill="#171310"></rect>
+    <text class="mk" x="29.79" y="88.13" font-size="82" fill="#F7F1E5">B</text>
+  </g>
+
+  <text class="lbl" x="640" y="230">ACTUAL SIZE</text>
+  <g transform="translate(640 242)">
+    <rect width="48" height="48" rx="8" fill="#171310"></rect>
+    <text class="mk" x="6.75" y="32.51" font-size="24.80" fill="#F7F1E5">B</text>
+    <text class="mk" x="22.65" y="32.51" font-size="24.80" fill="#4FC08C">K</text>
+    <rect x="0" y="60" width="32" height="32" rx="5.33" fill="#171310"></rect>
+    <text class="mk" x="4.50" y="81.67" font-size="16.54" fill="#F7F1E5">B</text>
+    <text class="mk" x="15.10" y="81.67" font-size="16.54" fill="#4FC08C">K</text>
+    <rect x="0" y="104" width="16" height="16" rx="2.67" fill="#171310"></rect>
+    <text class="mk" x="3.97" y="115.75" font-size="10.93" fill="#F7F1E5">B</text>
+  </g>
+
+  <line x1="40" y1="420" x2="740" y2="420" stroke="#171310" stroke-width="1"></line>
+  <text class="lbl" x="40" y="446">CONSTRUCTION</text>
+  <text class="note" x="40" y="472">Archivo 600 at font-size 100: B advance 70.60, K advance 69.50, left sidebearing 7.60, cap height 68.60.</text>
+  <text class="note" x="40" y="492">Tracking -6.50 per 100em. K origin sits at 64.10. Mark crops to its ink: 123.9 x 68.6.</text>
+  <text class="note" x="40" y="512">Tile: 120 box, radius 22, font-size 62, B at x=16.88, K at x=56.62, baseline 81.27, side margin 21.59.</text>
+  <text class="note" x="40" y="532">Clear space is one cap height all round. Never re-track, outline, rotate, or add a third colour.</text>
+</svg>

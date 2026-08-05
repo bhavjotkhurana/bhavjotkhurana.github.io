@@ -6,192 +6,231 @@
     <title>Bhavjot Khurana</title>
     <meta
       name="description"
-      content="Bhavjot Khurana - Chicago-based data scientist and product analyst with a Mathematics and Statistics background. I build products, instrument them, and measure whether they work. Currently building VLTG (vltg.net), where I run the analytics, experimentation, and growth."
+      content="Bhavjot Khurana - Chicago-based data scientist and educator. I build learning products, instrument them, and measure whether they work."
     />
     <meta name="author" content="Bhavjot Khurana" />
     <meta
       name="keywords"
-      content="Bhavjot Khurana, data analyst, data scientist, product analytics, experimentation, A/B testing, funnel instrumentation, SQL, Python, R, Chicago"
+      content="Bhavjot Khurana, data scientist, educator, instructional design, curriculum, product analytics, experimentation, A/B testing, LLM evaluation, SQL, Python, R, Chicago"
     />
     <meta property="og:title" content="Bhavjot Khurana" />
     <meta
       property="og:description"
-      content="Portfolio of Bhavjot Khurana - Chicago-based Reed College '23 Mathematics & Statistics graduate focused on analytics, experimentation, and product-minded data science."
+      content="Chicago-based data scientist and educator. I build learning products, instrument them, and measure whether they work."
     />
     <meta property="og:url" content="https://bhavjotkhurana.com" />
     <meta property="og:type" content="website" />
-    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
-    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+    <meta property="og:image" content="https://bhavjotkhurana.com/assets/favicon/web-app-manifest-512x512.png" />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="Bhav" />
-    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Public+Sans:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="page">
-      <header class="topbar">
-        <h1><a href="mailto:bhavjotskhurana@gmail.com">Bhavjot Khurana</a></h1>
-        <p class="tagline">Chicago, IL &bull; Reed College '23, Mathematics &amp; Statistics</p>
-      </header>
 
-      <hr />
+    <header class="topbar band-cream">
+      <div class="wrap">
+        <a class="wordmark" href="/" aria-label="Bhavjot Khurana — home">
+          <picture>
+            <source srcset="assets/logomark-dark.svg" media="(prefers-color-scheme: dark)" />
+            <img src="assets/logomark.svg" alt="Bhavjot Khurana" />
+          </picture>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </button>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="./assets/Resume_Khurana_Bhav.pdf" target="_blank" rel="noopener noreferrer">Résumé</a></li>
+            <li><a href="mailto:bhavjotskhurana@gmail.com">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-      <section>
-        <h2>About</h2>
-        <p>
-          After graduating from Reed College with a degree in Mathematics and Statistics, I made a deliberate choice:
-          before building tools for learners, I wanted to understand them. <strong><u>700+ tutoring sessions</u></strong> later, I have a clear
-          picture of where and why people get stuck in math. Most students do not have a broad math problem; they have a
-          gap in a <strong>specific foundational concept</strong> that was never caught, and once that gap is identified, progress is
-          <em>measurable and fast</em>.
-        </p>
-        <p>
-          That instinct for what actually moves a student got rigorous at <strong>Yuno Learning</strong>, where the job was to
-          <em>prove</em> whether an intervention worked rather than assume it did &mdash; A/B tests on content cadence and
-          deadlines (t-tests, Cohen's d) and conversion tracking from a first website visit through to a tutor match. I
-          learned to trust <strong>measurement over intuition</strong>.
-        </p>
-        <p>
-          <strong>Current focus:</strong> <strong>VLTG</strong> (<a href="https://vltg.net" target="_blank" rel="noopener noreferrer">vltg.net</a>), a
-          free diagnostic for a high-stakes trade licensing exam that I build and grow solo. Part of why I started it is
-          the data: I've spent years working with education data and most of it is stale and second-hand, so I wanted to
-          build something of my own and <strong>generate a live dataset I could actually work with</strong>. It puts the whole
-          loop in my hands: the product, the analytics, and the experiments that tell me whether any of it is working.
-        </p>
-        <p>
-          <strong>Technical toolkit:</strong> Python, R, SQL, statistical modeling, experimentation design, A/B testing, and
-          funnel/event instrumentation.
-        </p>
-        <p>
-          Outside of that, I spend my time powerlifting, following automotive design, and checking out cool
-          places around Chicago for a chill work session. I started
-          <a href="https://chicagoworkspots.com" target="_blank" rel="noopener noreferrer">chicagoworkspots.com</a>
-          to collect work-friendly spots, initially for me and my partner. One simple but important feature is a power
-          outlet rating based on the often-overlooked seat-to-outlet ratio. Feel free to check it out and add your
-          own suggestions!
-        </p>
-      </section>
+    <!-- HERO -->
+    <section class="band-white" style="padding-top:clamp(72px,10vw,96px); padding-bottom:clamp(56px,8vw,80px);">
+      <div class="wrap hero">
+        <div class="eyebrow"><span class="dot"></span> Chicago, IL · Reed College '23, Mathematics &amp; Statistics</div>
+        <h1>Bhavjot Khurana</h1>
+        <p class="subhead">I build learning products, instrument them, and measure whether they work.</p>
+        <p class="lede">A data scientist and educator. Seven hundred-plus tutoring sessions taught me where people get stuck; the rest of my work is proving what moves them.</p>
+        <div class="actions">
+          <a class="btn btn-sky" href="mailto:bhavjotskhurana@gmail.com">Email me</a>
+          <a class="btn btn-jade" href="./assets/Resume_Khurana_Bhav.pdf" target="_blank" rel="noopener noreferrer">Résumé</a>
+          <a class="btn btn-orchid" href="https://github.com/bhavjotkhurana" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+        <div class="stats">
+          <div class="stat s-jade"><div class="num">700+</div><div class="lbl">Tutoring sessions</div></div>
+          <div class="stat s-sky"><div class="num">1,440</div><div class="lbl">Questions shipped</div></div>
+          <div class="stat s-orchid"><div class="num">3</div><div class="lbl">Live products</div></div>
+          <div class="stat s-marigold"><div class="num">Reed '23</div><div class="lbl">Math &amp; Statistics</div></div>
+        </div>
+      </div>
+    </section>
 
-      <section>
-        <h2>Links</h2>
-        <p class="inline-links">
+    <!-- ABOUT -->
+    <section id="about" class="band-cream" style="padding-top:clamp(80px,11vw,116px); padding-bottom:clamp(80px,11vw,116px);">
+      <div class="wrap block">
+        <div class="sec-head"><span class="idx i-sky">01</span><h2>About</h2></div>
+        <div class="prose">
+          <p>After a Mathematics and Statistics degree from Reed, I spent 700+ tutoring sessions learning where people get stuck. Most students don't have a broad problem; they have <span class="k">one foundational gap</span> that was never caught, and once you name it, progress is fast and measurable.</p>
+          <p>I got rigorous about it at Yuno Learning, where the job was to <em>prove</em> an intervention worked rather than assume it did. I learned to trust <span class="k">measurement over intuition</span>.</p>
+          <p>Now I build learning products end to end, so every channel is measured against real conversions rather than clicks.</p>
+          <p>Away from the screen, I powerlift, play tennis, and cut linocuts, and I follow automotive design closely. They scratch the same itch: form, patience, and the slow work of getting something right.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="band-orchid" style="padding-top:clamp(80px,11vw,116px); padding-bottom:clamp(80px,11vw,116px);">
+      <div class="wrap block">
+        <div class="sec-head"><span class="idx i-orchid">02</span><h2>Experience</h2></div>
+
+        <div class="row">
+          <div><div class="role">Founder, Data &amp; Product Analyst</div><div class="org">VLTG · vltg.net</div></div>
+          <div class="date">2025–Present</div>
+          <div class="desc">A free diagnostic for a high-stakes licensing exam, built solo: a scored assessment, a skill-by-skill breakdown, an LLM coach summary, and full-funnel instrumentation with first-touch attribution.</div>
+        </div>
+
+        <div class="row">
+          <div><div class="role">Data Analyst</div><div class="org">Yuno Learning · Remote</div></div>
+          <div class="date">2022–2025</div>
+          <div class="desc">Queried cohort data in SQL for weekly trend snapshots; authored A/B test readouts (t-tests, Cohen's d); helped build conversion-tracking dashboards from first visit through tutor match.</div>
+        </div>
+
+        <div class="row">
+          <div><div class="role">Mathematics &amp; Statistics Tutor</div><div class="org">Private practice · Pear Deck Tutor (GoGuardian)</div></div>
+          <div class="date">2023–Present</div>
+          <div class="desc">700+ one-on-one sessions from K-12 through college, at Pear Deck Tutor and privately. Designed introductory Statistics and Probability curricula for non-traditional learners; recently took a student's SAT Math from 580 to 730 in three months.</div>
+        </div>
+
+        <div class="row">
+          <div><div class="role">Research Assistant</div><div class="org">Reed College</div></div>
+          <div class="date">2022</div>
+          <div class="desc">Applied statistical analysis on higher-education outcomes data, including work that identified a significant discrepancy in public earnings estimates and supported institutional reporting.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SELECTED WORK -->
+    <section id="work" class="band-cream" style="padding-top:clamp(80px,11vw,116px); padding-bottom:clamp(80px,11vw,116px);">
+      <div class="wrap block">
+        <div class="sec-head"><span class="idx i-marigold">03</span><h2>Selected Work</h2><span class="tag">6 projects</span></div>
+        <div class="cards">
+
+          <div class="card c-sky">
+            <div class="cap">Product · Live</div>
+            <div class="body">
+              <div class="title">VLTG</div>
+              <div class="blurb">A diagnostic product I build and grow end to end, from the scoring model to funnel instrumentation.</div>
+              <div class="chip">Scored 1–9 · LLM coach</div>
+              <div class="foot"><span>Live · 2026</span><a class="repo" href="https://vltg.net" target="_blank" rel="noopener noreferrer">vltg.net ↗</a></div>
+            </div>
+          </div>
+
+          <div class="card c-jade">
+            <div class="cap">Statistics · LLM Eval</div>
+            <div class="body">
+              <div class="title">MMLU-Pro Evaluation</div>
+              <div class="blurb">Grading a language model on a reasoning benchmark, and measuring how much step-by-step reasoning helps.</div>
+              <div class="chip">44% → 78% with reasoning</div>
+              <div class="foot"><span>Write-up + code</span><a class="repo" href="https://github.com/bhavjotkhurana/mmlu-pro" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+            </div>
+          </div>
+
+          <div class="card c-orchid">
+            <div class="cap">EdTech · Live</div>
+            <div class="body">
+              <div class="title">ScotchEgg</div>
+              <div class="blurb">A free 1,440-question SAT Math platform that doubles as an acquisition funnel for my tutoring.</div>
+              <div class="chip">React · Supabase · SEO</div>
+              <div class="foot"><span>Live</span><a class="repo" href="https://scotchegg.co" target="_blank" rel="noopener noreferrer">scotchegg.co ↗</a></div>
+            </div>
+          </div>
+
+          <div class="card c-jade">
+            <div class="cap">Machine Learning</div>
+            <div class="body">
+              <div class="title">Predicting Student Proficiency</div>
+              <div class="blurb">Random forests across demographic subgroups of 1,236 Oregon schools; teacher staffing and experience outweighed poverty in predicting proficiency.</div>
+              <div class="chip">SMOTE · per-class balanced accuracy</div>
+              <div class="foot"><span>Senior thesis</span><a class="repo" href="https://github.com/bhavjotkhurana/Predicting-Student-Proficiency" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+            </div>
+          </div>
+
+          <div class="card c-orchid">
+            <div class="cap">Data Engineering</div>
+            <div class="body">
+              <div class="title">TCG Database Design</div>
+              <div class="blurb">A normalized PostgreSQL schema for a trading-card domain: players, packs, rarity rules, and pack openings.</div>
+              <div class="chip">PostgreSQL · normalized schema</div>
+              <div class="foot"><span>Schema design</span><a class="repo" href="https://github.com/bhavjotkhurana/tcg-db-design" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+            </div>
+          </div>
+
+          <div class="card c-marigold">
+            <div class="cap">Experimentation</div>
+            <div class="body">
+              <div class="title">A/B Testing Analysis</div>
+              <div class="blurb">Separating real lift from noise in an advertising experiment, then weighing efficiency against cost.</div>
+              <div class="chip">Hypothesis testing · CIs</div>
+              <div class="foot"><span>2025</span><a class="repo" href="https://github.com/bhavjotkhurana/ab-testing" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="wrap">
+        <div class="line">Aspiring to build at the intersection of technology and the humanities.</div>
+        <div class="links">
           <a href="https://github.com/bhavjotkhurana" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <span>&bull;</span>
           <a href="https://www.linkedin.com/in/bhavjotkhurana" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <span>&bull;</span>
-          <a href="./assets/Resume_Khurana_Bhav.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
-          <span>&bull;</span>
+          <a href="./assets/Resume_Khurana_Bhav.pdf" target="_blank" rel="noopener noreferrer">Résumé</a>
           <a href="mailto:bhavjotskhurana@gmail.com">Email</a>
-        </p>
-      </section>
+        </div>
+      </div>
+    </footer>
 
-      <section>
-        <h2>Experience</h2>
-
-        <article>
-          <h3><span class="role"><strong>Data Analyst, Yuno Learning</strong> (Remote)</span><span class="badge">2022&ndash;2025</span></h3>
-          <p>
-            A summer 2022 internship that continued as intermittent freelance analytics work through August 2025.
-            Queried and reshaped tutoring cohort data in SQL for weekly trend snapshots, authored A/B test readouts
-            (t-tests, Cohen's d) on content cadence and deadline expectations, and helped build conversion-tracking
-            dashboards spanning first website visit through tutor match.
-          </p>
-        </article>
-
-        <article>
-          <h3><span class="role"><strong>Private Tutor (Freelance), Chicago</strong></span><span class="badge">2024&ndash;Present</span></h3>
-          <p>
-            Coach 7 students weekly across K-7 Math, SAT Math, and AP Calculus/Physics; recently took one student's SAT
-            Math score from 580 to 730 in three months. Built and run
-            <a href="https://scotchegg.co" target="_blank" rel="noopener noreferrer">scotchegg.co</a>, a free
-            1,440-question SAT Math practice platform that doubles as an acquisition funnel for tutoring clients.
-          </p>
-        </article>
-
-        <article>
-          <h3><span class="role"><strong>Mathematics &amp; Statistics Tutor, Pear Deck Tutor (GoGuardian)</strong></span><span class="badge">2023&ndash;2025</span></h3>
-          <p>
-            Delivered 600+ one-on-one sessions across K-12 through college-level math and statistics, and designed
-            introductory Statistics and Probability curricula for non-traditional learners.
-          </p>
-        </article>
-
-        <article>
-          <h3><span class="role"><strong>Research Assistant, Reed College</strong></span><span class="badge">2022</span></h3>
-          <p>
-            Conducted applied statistical analysis on higher-education outcomes data, including work that identified a
-            significant discrepancy in public earnings estimates and supported institutional reporting discussions.
-          </p>
-        </article>
-      </section>
-
-      <section>
-        <h2>Projects</h2>
-
-        <article>
-          <h3><span class="role"><strong>VLTG, Product Analytics and Growth</strong></span><span class="badge">Live &middot; 2026</span></h3>
-          <p>
-            A diagnostic product I build and grow end to end (<a href="https://vltg.net" target="_blank" rel="noopener noreferrer">vltg.net</a>).
-            Users take a free 69-question assessment and get a 1 to 9 score with a skill-by-skill breakdown, a prioritized
-            plan, and a realistic timeline. I own it all: the scoring model, code-verified answer keys, an LLM coach
-            summary (Claude), and full-funnel instrumentation with first-touch UTM attribution and
-            landing-page-through-sign-up event tracking, so every channel is measured against real conversions rather than
-            clicks.
-          </p>
-        </article>
-
-        <article>
-          <h3><span class="role"><strong>Predicting Student Proficiency</strong></span><span class="badge">Senior Thesis</span></h3>
-          <p>
-            Curated a 1,236-school ESSA dataset and built random forest models in R (caret, randomForest, SMOTE, 9-fold
-            cross-validation) to predict ELA/Math proficiency, reaching over 80% accuracy for most cohorts and surfacing
-            staffing metrics as the top predictive drivers.
-            <a href="https://github.com/bhavjotkhurana/Predicting-Student-Proficiency" target="_blank" rel="noopener noreferrer">GitHub &#8599;</a>
-          </p>
-        </article>
-
-        <article>
-          <h3><span class="role"><strong>A/B Testing Analysis &mdash; Advertising Experiment</strong></span><span class="badge">2025</span></h3>
-          <p>
-            Analyzed a large-scale advertising experiment to evaluate the impact of ad exposure on conversion, using
-            hypothesis testing and confidence intervals to separate real lift from noise, then weighed conversion
-            efficiency against cost to land on a clear go/no-go recommendation.
-            <a href="https://github.com/bhavjotkhurana/ab-testing" target="_blank" rel="noopener noreferrer">GitHub &#8599;</a>
-          </p>
-        </article>
-
-        <article>
-          <h3>
-            <span class="role"><strong><a href="https://scotchegg.co" target="_blank" rel="noopener noreferrer">ScotchEgg.co</a></strong></span>
-            <span class="badge">Live</span>
-          </h3>
-          <p>
-            A free SAT Math practice platform (React, Supabase) with 1,440+ questions organized across ten topic units,
-            built to double as an acquisition funnel for my tutoring. Ships with a browsable catalog, downloadable
-            worksheets, and build-time SEO prerendering.
-            <a href="https://github.com/bhavjotkhurana/scotch-egg" target="_blank" rel="noopener noreferrer">GitHub &#8599;</a>
-          </p>
-        </article>
-
-        <article>
-          <h3><span class="role"><strong>LLM Hints</strong></span><span class="badge">Prototype</span></h3>
-          <p>
-            A prototype that uses a vision LLM to generate progressive, one-step-at-a-time hints for SAT Math problems
-            from a photo &mdash; scaffolding a student toward the answer instead of handing it over.
-            <a href="https://github.com/bhavjotkhurana/llm-hints" target="_blank" rel="noopener noreferrer">GitHub &#8599;</a>
-          </p>
-        </article>
-
-        <article>
-          <h3><strong>TCG Database Design</strong></h3>
-          <p>
-            A normalized PostgreSQL schema for a trading-card domain &mdash; modeling players, packs, rarity rules, and
-            pack openings with a focus on correctness and clean, queryable structure.
-            <a href="https://github.com/bhavjotkhurana/tcg-db-design" target="_blank" rel="noopener noreferrer">GitHub &#8599;</a>
-          </p>
-        </article>
-      </section>
-    </main>
+    <script>
+      (function () {
+        var nav = document.querySelector('.nav');
+        var toggle = document.querySelector('.nav-toggle');
+        if (!nav || !toggle) return;
+        function close() {
+          nav.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+          toggle.setAttribute('aria-label', 'Open menu');
+        }
+        toggle.addEventListener('click', function () {
+          var open = nav.classList.toggle('open');
+          toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+          toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+        });
+        nav.querySelectorAll('.nav-menu a').forEach(function (a) {
+          a.addEventListener('click', close);
+        });
+      })();
+    </script>
   </body>
 </html>
